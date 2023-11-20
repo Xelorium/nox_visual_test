@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:visualtest/config/theme.dart';
+import 'package:visualtest/controller/test_controllers/test_two_controller.dart';
 
 import '../../config/texts.dart';
 
-class TestTwoPage extends StatelessWidget {
+class TestTwoPage extends GetView<TestTwoController> {
   const TestTwoPage({super.key});
 
   @override
